@@ -1,0 +1,19 @@
+CREATE DATABASE project_i;
+
+
+CREATE TABLE members(
+id int(4) NOT NULL auto_increment,
+username varchar(65) NOT NULL,
+password varchar(65) NOT NULL,
+member_name varchar(65) NOT NULL,
+age int(3) NOT NULL,
+primary key (id,user_name,password)
+)
+
+CREATE TABLE book(
+ID int NOT NULL auto_increment,
+FirstName varchar(65) NOT NULL,
+LastName varchar(65) NOT NULL,
+Number int(11) NOT NULL,
+primary key (id)
+);
